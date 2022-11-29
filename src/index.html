@@ -10,12 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <form>
-      <input type="text" name="ccname" placeholder="ccname" />
-      <input type="number" name="cardnumber" placeholder="cardnumber" />
-      <input type="number" name="cvc" placeholder="cvc" />
-      <input type="date" name="cc-exp" placeholder="cc-exp" />
-      <button type="submit">Submit!</button>
+    <form action="http://localhost:8080/">
+      <input type="text" name="ccname" placeholder="ccname" autocomplete="on" />
+      <input
+        type="number"
+        name="cardnumber"
+        placeholder="cardnumber"
+        autocomplete="on"
+      />
+      <input type="number" name="cvc" placeholder="cvc" autocomplete="on" />
+      <input type="date" name="cc-exp" placeholder="cc-exp" autocomplete="on" />
+      <button type="submit">Submit</button>
     </form>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
